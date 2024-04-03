@@ -16,6 +16,9 @@
     &__para{
         transform: translateY(-33px);
         margin-bottom: -33px;
+        @media screen and (min-width: 970px) {
+            width: 65%;
+        }
     }
 
     &::marker{

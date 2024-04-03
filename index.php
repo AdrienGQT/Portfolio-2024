@@ -9,8 +9,8 @@
     <div id="landingMain" class="landing">
         <div id="landingTop" class="landing__top">
             <h2 class="landing__text">
-                <span id="landingHello" class="anim-appear" style="animation-delay: 0.3s"></span>
-                <span id="landingName" class="anim-appear" style="animation-delay: 0.4s"></span>
+                <span id="landingHello" class="anim-appear" style="animation-delay: 0.3s">Hello,</span>
+                <span id="landingName" class="anim-appear" style="animation-delay: 0.4s">I'm Adrien Gasquet</span>
             </h2>
             <div class="main-title">
                 <div class="main-title__top">
