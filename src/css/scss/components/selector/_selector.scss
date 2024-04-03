@@ -1,0 +1,94 @@
+.selector{
+    display: flex;
+    width: 677px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 25px;
+    background: $c-surface-lv1;
+    position: relative;
+    z-index: 20;
+
+    &__item{
+        
+        cursor: pointer;
+        display: flex;
+        width: 50%;
+        padding: 15px 0;
+        justify-content: center;
+        align-items: center;
+        border-radius: 15px;
+
+
+        &--on{
+            background-color: $c-primary-container;
+        }
+
+        &--off{
+            background-color: rgba($c-primary-container,0);
+
+            & p{
+                color: rgba($c-on-primary-container,0.5);
+            }
+
+            &:hover{
+                background-color: rgba($c-primary-container,0.25);
+
+                & p{
+                    color: rgba($c-on-primary-container,1);
+                }
+            }
+        }
+
+        & p{
+            margin: 0;
+        }
+    }
+
+    @media screen and (max-width: 970px) {
+        width: calc(100vw - 50px);
+    }
+
+    &--photo{
+        background: $c-glass;
+        box-shadow: $glass-shadow;
+        backdrop-filter: blur($glass-blur);
+        -webkit-backdrop-filter: blur($glass-blur);
+        border-radius: 20px;
+        border: $glass-border;
+
+        .selector{
+            &__item {
+            
+                    &--on {
+                        background: $c-glass;
+                        box-shadow: $glass-shadow;
+                        backdrop-filter: blur($glass-blur);
+                        -webkit-backdrop-filter: blur($glass-blur);
+                        border-radius: $glass-br;
+                        border: $glass-border;
+                    }
+            
+                    &--off {
+                        background-color: rgba($c-white-main, 0);
+            
+                        & p {
+                            color: rgba($c-black-main, 1);
+                        }
+            
+                        &:hover {
+                            background: rgba(238, 229, 220, 0.05);
+                            backdrop-filter: blur($glass-blur);
+                            -webkit-backdrop-filter: blur($glass-blur);
+                            border-radius: $glass-br;
+            
+                            & p {
+                                color: rgba($c-black-main, 1);
+                            }
+                        }
+                    }
+                }
+        }
+    }
+}

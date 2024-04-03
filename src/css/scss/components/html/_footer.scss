@@ -1,0 +1,80 @@
+.footer-list {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 0 0;
+    padding: 0;
+    height: 70px;
+    gap: 30px;
+
+    &__item {
+        height: fit-content;
+        width: fit-content;
+        display: flex;
+    }
+
+    &__icon {
+        opacity: 35%;
+        height: 15px;
+        width: 15px;
+        padding: 5px;
+        background-position: center;
+        background-size: cover;
+        border-radius: 3px;
+
+        &--linkedin {
+            background-image: url(/public/logo/linkedin.svg);
+        }
+
+        &--dribbble {
+            background-image: url(/public/logo/dribbble.svg);
+        }
+
+        &--instagram {
+            background-image: url(/public/logo/instagram.svg);
+        }
+
+        &--behance {
+            background-image: url(/public/logo/behance.svg);
+        }
+
+        &--x {
+            background-image: url(/public/logo/x.svg);
+        }
+
+        &:hover {
+            opacity: 100%;
+        }
+    }
+
+    @media screen and (max-width: 790px) {
+        margin-top: 50px;
+    }
+
+    &--photo {
+        .footer-list {
+            &__icon {
+                &--linkedin {
+                    background-image: url(/public/logo/linkedin-photo.svg);
+                }
+
+                &--dribbble {
+                    background-image: url(/public/logo/dribbble-photo.svg);
+                }
+
+                &--instagram {
+                    background-image: url(/public/logo/instagram-photo.svg);
+                }
+
+                &--behance {
+                    background-image: url(/public/logo/behance-photo.svg);
+                }
+
+                &--x {
+                    background-image: url(/public/logo/x-photo.svg);
+                }
+            }
+        }
+    }
+}

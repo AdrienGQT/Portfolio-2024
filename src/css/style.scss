@@ -1,0 +1,56 @@
+@import 'scss/base/variables';
+@import 'scss/base/base';
+
+@import 'scss/components/content-wrapper';
+@import 'scss/components/button';
+
+
+// HTML
+
+@import 'scss/components/html/header';
+
+// Landing
+
+@import 'scss/components/landing/landing';
+@import 'scss/components/landing/main-title';
+@import 'scss/components/landing/portrait';
+@import 'scss/components/landing/background';
+@import 'scss/components/landing/transition';
+
+// Selector
+
+@import 'scss/components/selector/selector-container';
+@import 'scss/components/selector/selector';
+@import 'scss/components/selector/language-selector';
+
+// Project list
+
+@import 'scss/components/project-list/project-list';
+@import 'scss/components/project-list/project';
+
+// Articles
+
+@import 'scss/components/articles/article-title';
+@import 'scss/components/articles/article-sections-list';
+@import 'scss/components/articles/article-section';
+@import 'scss/components/articles/article-media';
+@import 'scss/components/articles/bottom-buttons';
+
+// Animations
+
+@import 'scss/components/animation/animations';
+@import 'scss/components/animation/avatars-animation';
+
+// Footer
+
+@import 'scss/components/html/footer';
+
+// Style
+
+@import 'scss/components/style/photo-style';
+
+// Other
+
+@import 'scss/components/other/warning'
+
+

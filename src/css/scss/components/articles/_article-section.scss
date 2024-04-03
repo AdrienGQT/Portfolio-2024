@@ -1,0 +1,29 @@
+.article-section{
+    list-style-position: inside;
+    width: 100%;
+    // margin-bottom: -33px;
+
+    &__title{
+        color: $c-on-primary-container;
+        font-size: 1.7rem;
+        font-weight: 700;
+        margin: 0;
+        // transform: translate(70px, -57.5px);
+        width: fit-content;
+        transform: translate(45px,-33px);
+        max-width: calc(100% - 45px);
+    }
+    &__para{
+        transform: translateY(-33px);
+        margin-bottom: -33px;
+    }
+
+    &::marker{
+        content: counter(list-item) "›› ";
+        color: $c-primary-container;
+        font-family: Figtree;
+        font-size: 1.7rem;
+        font-style: normal;
+        font-weight: 700;
+    }
+}

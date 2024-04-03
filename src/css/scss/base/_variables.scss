@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
+
+// Font variables
+
+$font-main: 'Figtree', sans-serif;
+$font-base-size: 16px;
+
+// Color variables - Design
+
+$c-primary: #8C5C3C;
+$c-primary-hover: #74492C;
+$c-on-primary: #FEFAF7;
+$c-primary-container: #EFA472;
+$c-primary-container-hover: #DF905C;
+$c-on-primary-container: #1F120A;
+$c-surface: #FBEDE3;
+$c-surface-lv1: #F5E3D8;
+
+// Color variables - Photo
+
+$c-red-main: #F33030;
+$c-black-main: #191717;
+$c-white-main: #f1e1e1;
+
+// Glassy effect
+
+$c-glass: rgba(242, 220, 195, 0.3);
+$c-glass-hover: rgba(242, 220, 195, 0.45);
+$glass-blur: 3.8px;
+$glass-br: 15px;
+$glass-border: 1px solid rgba(255, 255, 255, 0.18);
+$glass-shadow: 0 8px 32px 0 rgba(15, 15, 18, 0.20);
+
+// Breakpoints
+
+// Little desktop screen bp
+$bp-small-pc: 1900px;

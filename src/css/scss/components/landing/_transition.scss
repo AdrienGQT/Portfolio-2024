@@ -1,0 +1,77 @@
+.transition-to-design {
+    content: '';
+    position: fixed;
+    top: 0;
+    // width: 100vw;
+    height: 100vh;
+    z-index: 999;
+
+    animation-name: transition-to-design;
+    animation-duration:1.5s;
+    animation-timing-function: ease-out;
+}
+
+@keyframes transition-to-design{
+    0%{
+        left: 0;
+        width: 0;
+        background-color: $c-black-main;
+    }
+
+    40%{
+        left: 0;
+        width: 100vw;
+        background-color: $c-surface;
+    }
+
+    60%{
+        right: 0;
+        width: 100vw;
+    }
+
+    100%{
+        right: 0;
+        width: 0;
+        background-color: $c-surface;
+    }
+}
+
+.transition-to-photo {
+    content: '';
+    position: fixed;
+    top: 0;
+    // width: 100vw;
+    height: 100vh;
+    z-index: 999;
+
+    animation-name: transition-to-photo;
+    animation-duration: 1.5s;
+    animation-timing-function: ease-out;
+}
+
+@keyframes transition-to-photo {
+    0% {
+        right: 0;
+        width: 0;
+        background-color: $c-surface;
+        opacity: 100%;
+    }
+
+    40% {
+        right: 0;
+        width: 100vw;
+    }
+
+    60% {
+        right: 100vw;
+        width: 100vw;
+        opacity: 100%;
+    }
+
+    100% {
+        opacity: 0;
+        right: 100vw;
+        width: 0;
+        background-color: $c-black-main;
+    }
+}

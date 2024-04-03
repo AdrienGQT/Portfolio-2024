@@ -1,0 +1,99 @@
+.landing {
+    height: calc(100vh - (90px + 51px));
+    width: 905px;
+    // transform: translateY(-90px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 50px;
+    position: relative;
+    overflow: hidden;
+
+    @media screen and (max-width: $bp-small-pc) and (min-width: 969px) {
+        width: 765px;
+        gap: unset;
+        justify-content: space-around;
+    }
+
+    &--photo {
+        width: 962px;
+        padding: 0 30px;
+
+        @media screen and (max-width: $bp-small-pc) {
+            width: 802px;
+        }
+    }
+
+
+    &__top {
+        display: flex;
+        flex-direction: column;
+
+        &--photo {
+            padding: 20px 35px;
+            box-sizing: content-box;
+
+            background: $c-glass;
+            box-shadow: $glass-shadow;
+            backdrop-filter: blur($glass-blur);
+            -webkit-backdrop-filter: blur($glass-blur);
+            border-radius: $glass-br;
+            border: $glass-border;
+
+            @media screen and (max-width: $bp-small-pc) {
+                    padding: 13px 23px;
+                }
+
+            @media screen and (max-width: 970px) {
+                padding: 0px 10px 10px 10px;
+            }
+        }
+    }
+
+    &__bottom {
+        display: flex;
+        flex-direction: column;
+
+        &--photo {
+            padding: 20px;
+            box-sizing: content-box;
+            background: rgba(238, 229, 220, 0.25);
+            box-shadow: $glass-shadow;
+            backdrop-filter: blur(3px);
+            -webkit-backdrop-filter: blur(2px);
+            border-radius: 10px;
+            border: 1px solid rgba(255, 255, 255, 0.18);
+
+            @media screen and (max-width: $bp-small-pc) {
+                    padding: 0px 23px;
+                }
+
+            @media screen and (max-width: 970px) {
+                padding: 0 10px;
+            }
+        }
+
+
+    }
+
+    &__text {
+        font-size: 1rem;
+        font-weight: 400;
+    }
+
+    @media screen and (max-width: 970px) {
+        height: calc(100vh - (70px + 51px));
+        width: 100%;
+    }
+
+    @media screen and (max-width: 300px) {
+        gap: 25px;
+    }
+
+    @media screen and (max-height:680px) {
+        gap: unset;
+        justify-content: space-between;
+
+    }
+
+}

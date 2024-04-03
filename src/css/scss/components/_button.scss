@@ -1,0 +1,141 @@
+.button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: fit-content;
+    padding: 15px 35px;
+    border-radius: 15px;
+    gap: 10px;
+    position: relative;
+
+    &__text {
+        margin: 0;
+    }
+
+    &:hover {
+
+        .button__icon--arrow-down {
+            transform: translateY(5px);
+        }
+
+        .button__icon--double-arrow {
+            transform: translateX(5px);
+        }
+
+
+    }
+
+    &--c-1 {
+        background-color: $c-primary-container;
+        color: $c-on-primary-container;
+
+        &:hover {
+            background-color: $c-primary-container-hover;
+        }
+
+        & p {
+            color: $c-on-primary-container;
+        }
+
+        .button__icon {
+            &--double-arrow {
+                background-image: url(/public/ui/double-arrow-dark.svg);
+            }
+
+            &--home {
+                background-image: url(/public/ui/home-dark.svg);
+            }
+
+            &--internet-search {
+                background-image: url(/public/ui/internet-search-dark.svg);
+            }
+
+            &--arrow-next {
+                background-image: url(/public/ui/arrow-next.svg);
+            }
+        }
+
+    }
+
+    &--c-2 {
+        background-color: $c-primary;
+
+        &:hover {
+            background-color: $c-primary-hover;
+        }
+
+        & p {
+            color: $c-on-primary;
+        }
+
+        .button__icon {
+            &--double-arrow {
+                background-image: url(/public/ui/double-arrow-light.svg);
+            }
+
+            &--home {
+                background-image: url(/public/ui/home-light.svg);
+            }
+
+            &--internet-search {
+                background-image: url(/public/ui/internet-search-light.svg);
+            }
+
+            &--arrow-next {
+                background-image: url(/public/ui/arrow-next.svg);
+            }
+        }
+    }
+
+    &__icon {
+        height: 16px;
+        width: 16px;
+        background-size: cover;
+        transition: all 0.2s;
+
+        &--arrow-down {
+            background-image: url(/public/ui/arrow-down.svg);
+        }
+    }
+
+    &--blocked {
+
+        cursor: default;
+
+        &:hover::after {
+            content: 'Button unavailable yet';
+            position: absolute;
+            bottom: -25px;
+            font-family: $font-main;
+            opacity: 50%;
+        }
+    }
+
+    &--precision {
+
+        &:hover::after {
+            content: 'Only available on mobile';
+            position: absolute;
+            bottom: -25px;
+            font-family: $font-main;
+            opacity: 50%;
+        }
+    }
+
+    &--photo {
+        background: $c-glass;
+        box-shadow: $glass-shadow;
+        backdrop-filter: blur($glass-blur);
+        -webkit-backdrop-filter: blur($glass-blur);
+        border-radius: $glass-br;
+        border: $glass-border;
+
+        &:hover {
+            background-color: $c-glass-hover;
+        }
+
+        & p {
+            color: $c-black-main;
+        }
+    }
+}

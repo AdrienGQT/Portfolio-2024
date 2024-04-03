@@ -1,0 +1,94 @@
+* {
+    -webkit-tap-highlight-color: transparent;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    background-color: $c-surface;
+    position: relative;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    font-family: $font-main;
+    color: $c-on-primary-container;
+}
+
+p {
+    font-size: 1rem;
+}
+
+h1 {
+    font-size: 6rem;
+    font-weight: 700;
+    padding: 0;
+    margin: 0;
+
+    @media screen and (max-width: $bp-small-pc) {
+        font-size: 5.2rem;
+    }
+
+    @media screen and (max-width: 970px) {
+        font-size: 2.8rem;
+    }
+
+    @media screen and (max-width: 300px) {
+        font-size: 2.1rem;
+    }
+}
+
+h3 {
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+a {
+    text-decoration: none;
+    color: $c-primary;
+
+    &:hover {
+        color: $c-primary-hover;
+    }
+}
+
+ol,
+li {
+    margin: 0;
+    padding: 0;
+}
+
+span {
+    display: inline-block;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 8px;
+    background: none;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: none;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: rgba($c-on-primary-container, 0.2);
+    border-radius: 4px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: rgba($c-on-primary-container, 0.5);
+}

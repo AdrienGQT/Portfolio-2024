@@ -1,0 +1,15 @@
+.language-selector{
+    display: flex;
+    gap: 5px;
+
+    &__item{
+        cursor: pointer;
+        &--on{
+            text-decoration: underline;
+        }
+
+        &--off{
+            text-decoration: none;
+        }
+    }
+}

@@ -1,0 +1,40 @@
+.main-title {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+
+    @media screen and (max-width: 970px) {
+        gap: 0px;
+    }
+
+
+    &__bar {
+        height: 10px;
+        flex-grow: 1;
+        background-color: $c-on-primary-container;
+
+        @media screen and (max-width: 970px) {
+            display: none;
+        }
+    }
+
+    &__top {
+        display: flex;
+        align-items: center;
+        gap: 25px;
+    }
+
+    &__bottom {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        gap: 25px;
+
+        // height: 200px;
+        @media screen and (max-width: 970px) {
+            height: fit-content;
+        }
+    }
+
+}

@@ -1,0 +1,50 @@
+.portrait {
+    height: 200px;
+    width: 170px;
+    position: relative;
+
+    @media screen and (max-width: $bp-small-pc) {
+        height: 150px;
+        width: 127.5px;
+    }
+
+    &__mask {
+        height: 125%;
+        width: 100%;
+        border-bottom-left-radius: 93.5px;
+        border-bottom-right-radius: 93.5px;
+
+        position: absolute;
+        bottom: 0;
+
+        -webkit-mask-image: linear-gradient(black, black);
+        mask-image: linear-gradient(black, black);
+    }
+
+    &__img {
+        width: 115%;
+        position: absolute;
+        bottom: 0;
+        left: -7.5%;
+    }
+
+    &::before {
+        content: '';
+        height: 170px;
+        width: 170px;
+        border-radius: 50%;
+        background-color: $c-primary-container;
+        position: absolute;
+        bottom: 0;
+
+        @media screen and (max-width: $bp-small-pc) {
+            height: 127.5px;
+            width: 127.5px;
+        }
+    }
+
+    @media screen and (max-width: 970px) {
+        display: none;
+    }
+
+}

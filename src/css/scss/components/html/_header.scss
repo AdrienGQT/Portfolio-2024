@@ -1,0 +1,30 @@
+.header{
+    height: 90px;
+    width: 100%;
+    padding: 0 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    z-index: 500;
+    background-color: $c-surface;
+
+    &__title{
+        width: 160px;
+        line-height: 24px;
+
+        @media screen and (max-width: 970px) {
+            font-size: 1.25rem;
+            width: 141px;
+        }
+    }
+
+    @media screen and (max-width: 970px) {
+        padding: 0 25px;
+        height: 70px;
+    }
+
+    &--photo{
+        background: none;
+    }
+}

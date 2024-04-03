@@ -1,0 +1,41 @@
+.avatars-animation{
+    display: flex;
+    aspect-ratio: 16 / 9;
+    justify-content: space-around;
+    overflow: hidden;
+    z-index: 10;
+    
+    &__row{
+        width: calc(100% / 12.7);
+        display: flex;
+        flex-direction: column;
+
+        &--up{
+            animation: 10s linear infinite avatar-slide-up;
+        }
+
+        &--down{
+            animation: 10s linear infinite avatar-slide-down ;
+        }
+    }
+
+    @keyframes avatar-slide-up{
+        0%{
+            transform: translateY(0);
+        }
+
+        100%{
+            transform: translateY(-100%);
+        }
+    }
+
+    @keyframes avatar-slide-down{
+        0%{
+            transform: translateY(-100%);
+        }
+
+        100%{
+            transform: translateY(0%);
+        }
+    }
+}

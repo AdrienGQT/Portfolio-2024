@@ -1,0 +1,89 @@
+.project {
+    width: 100%;
+    list-style-position: inside;
+
+    &__title {
+        color: $c-on-primary-container;
+        font-size: 3rem;
+        font-weight: 700;
+        margin: 0;
+        -webkit-transform: translate(70px, -57.5px);
+        transform: translate(70px, -57.5px);
+        width: calc(100% - 70px);
+
+        @media screen and (max-width: 970px) {
+            font-size: 2rem;
+            -webkit-transform: translate(42px, -38.5px);
+            transform: translate(42px, -38.5px);
+
+        }
+    }
+
+    &__title-click {
+        -webkit-transform: translate(70px, -57.5px);
+        transform: translate(70px, -57.5px);
+    }
+
+    &__bottom {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 40px;
+    }
+
+    &__overview {
+        width: 100%;
+        display: flex;
+        padding: 15px;
+        justify-content: space-between;
+        align-items: center;
+        box-sizing: border-box;
+        border-radius: 25px;
+        background: #F5E3D8;
+        object-fit: cover;
+        aspect-ratio: 16 / 9;
+
+        @media screen and (max-width: 970px) {
+            padding: 10px;
+        }
+    }
+
+    &::marker {
+        content: counter(list-item) "› ";
+        color: $c-primary-container;
+        font-family: Figtree;
+        font-size: 3rem;
+        font-style: normal;
+        font-weight: 700;
+
+        @media screen and (max-width: 970px) {
+            font-size: 2rem;
+        }
+    }
+
+    &--photo {
+        display: none;
+        background: $c-glass;
+        box-shadow: $glass-shadow;
+        backdrop-filter: blur($glass-blur);
+        -webkit-backdrop-filter: blur($glass-blur);
+        border-radius: 25px;
+        border: $glass-border;
+        padding: 20px;
+        box-sizing: border-box;
+
+        &::marker {
+            color: $c-black-main;
+            mix-blend-mode: plus-lighter;
+            filter: blur(1px);
+        }
+
+        .project__overview {
+            padding: 0;
+            background: none;
+            border-radius: 15px;
+            filter: drop-shadow(0 0 0.75rem rgba(0, 0, 0, 0.3))
+        }
+    }
+}
