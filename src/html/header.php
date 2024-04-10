@@ -1,4 +1,4 @@
-<div class="header header--photo">
+<div class="header">
     <div class="header__left">
         <a href="/index.php">
             <h3 class="header__title">
@@ -9,6 +9,10 @@
 
     </div>
     <div class="header__right">
+        <a href="/client-data/pdf/CV - Adrien Gasquet.pdf" download="CV - Adrien Gasquet" class="button button--c-1" href="src/pages/design/liftoffrockets.php">
+            <div class="button__icon button__icon--download"></div>
+            <p class="button__text">CV</p>
+        </a>
         <div class="language-selector">
             <div id="en" class="language-selector__item language-selector__item--on"
                 onclick="languageSelectorClick('en')">

@@ -165,6 +165,9 @@ span {
 .button--c-1 .button__icon--arrow-next {
   background-image: url(/public/ui/arrow-next.svg);
 }
+.button--c-1 .button__icon--download {
+  background-image: url(/public/ui/download.svg);
+}
 .button--c-2 {
   background-color: #8C5C3C;
 }
@@ -236,7 +239,6 @@ span {
   align-items: center;
   box-sizing: border-box;
   z-index: 500;
-  background-color: #FBEDE3;
 }
 .header__title {
   width: 160px;
@@ -247,6 +249,22 @@ span {
     font-size: 1.25rem;
     width: 141px;
   }
+}
+.header__right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 48px;
+}
+@media screen and (max-width: 970px) {
+  .header__right {
+    gap: 24px;
+  }
+}
+.header__button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 @media screen and (max-width: 970px) {
   .header {
@@ -271,8 +289,6 @@ span {
 @media screen and (max-width: 1900px) and (min-width: 969px) {
   .landing {
     width: 765px;
-    gap: unset;
-    justify-content: space-around;
   }
 }
 .landing--photo {

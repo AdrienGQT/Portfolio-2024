@@ -7,7 +7,6 @@
     align-items: center;
     box-sizing: border-box;
     z-index: 500;
-    background-color: $c-surface;
 
     &__title{
         width: 160px;
@@ -17,6 +16,23 @@
             font-size: 1.25rem;
             width: 141px;
         }
+    }
+
+    &__right{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 48px;
+
+        @media screen and (max-width: 970px) {
+            gap: 24px;
+        }
+    }
+
+    &__button{
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
     @media screen and (max-width: 970px) {

@@ -11,8 +11,8 @@
 
     @media screen and (max-width: $bp-small-pc) and (min-width: 969px) {
         width: 765px;
-        gap: unset;
-        justify-content: space-around;
+        // gap: unset;
+        // justify-content: space-around;
     }
 
     &--photo {
