@@ -24,7 +24,8 @@
 
     <link rel="stylesheet" href="/src/css/style.css">
     <script src="/src/js/selector.js"></script>
-
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js" defer></script>
+    <script src="\src\js\anim-landing.js" defer></script>
     
 </head>
 

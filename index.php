@@ -9,32 +9,32 @@
     <div id="landingMain" class="landing">
         <div id="landingTop" class="landing__top">
             <h2 class="landing__text">
-                <span id="landingHello" class="anim-appear" style="animation-delay: 0.3s">Hello,</span>
-                <span id="landingName" class="anim-appear" style="animation-delay: 0.4s">I'm Adrien Gasquet</span>
+                <span id="landingHello" class="anim-appear">Hello,</span>
+                <span id="landingName" class="anim-appear">I'm Adrien Gasquet</span>
             </h2>
             <div class="main-title">
                 <div class="main-title__top">
-                    <h1 id="landingJob1" class="main-title__text anim-appear" style="animation-delay: 0.5s">UX/UI Designer</h1>
-                    <div id="landingBar" class="main-title__bar anim-appear" style="animation-delay: 0.6s"></div>
+                    <h1 id="landingJob1" class="main-title__text anim-appear">UX/UI Designer</h1>
+                    <div id="landingBar" class="main-title__bar anim-appear"></div>
                 </div>
                 <div class="main-title__bottom">
-                    <div id="landingPortrait" class="portrait anim-appear" style="animation-delay: 0.8s">
+                    <div id="landingPortrait" class="portrait anim-appear">
                         <div class="portrait__mask">
                             <img id="landingPhoto" class="portrait__img" src="client-data/images/portrait-2.webp"
                                 alt="">
 
                         </div>
                     </div>
-                    <h1 id="landingJob2" class="main-title__text anim-appear" style="animation-delay: 0.9s">& Photographer</h1>
+                    <h1 id="landingJob2" class="main-title__text anim-appear">& Photographer</h1>
                 </div>
             </div>
         </div>
         <div id="landingBottom" class="landing__bottom">
-            <h2 id="landingPara1" class="landing__text anim-appear" style="animation-delay: 1.1s">UX/UI Designer in training at Gobelins Paris with a passion for crafting the best visual experiences.</h2>
-            <h2 id="landingPara2" class="landing__text anim-appear" style="animation-delay: 1.2s">I also channel my creativity into photography to tell compelling visual stories for my clients.</h2>
+            <h2 id="landingPara1" class="landing__text anim-appear">UX/UI Designer in training at Gobelins Paris with a passion for crafting the best visual experiences.</h2>
+            <h2 id="landingPara2" class="landing__text anim-appear">I also channel my creativity into photography to tell compelling visual stories for my clients.</h2>
 
         </div>
-        <a class="button button--c-1 anim-appear" style="animation-delay: 1.3s; z-index: 100;"
+        <a class="button button--c-1 anim-appear" style="z-index: 100;"
             href="#selector-container">
             <div class="button__icon button__icon--arrow-down"></div>
             <p id="landingButton" class="button__text"></p>
@@ -47,7 +47,7 @@
 
 
 
-    <div id="selector-container" class="selector-container anim-appear-up" style="animation-delay: 2s">
+    <div id="selector-container" class="selector-container anim-appear-up">
         <div class="selector-container__top">
             <p id="selectorTop" class="selector-container__choose">Choose category</p>
         </div>
