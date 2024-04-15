@@ -26,7 +26,6 @@ function checkLanguage() {
       languageSelectorClick("fr");
     }
   } else {
-    console.log("undefined");
     localStorage.setItem("actualLanguage", "en");
     checkLanguage();
   }
@@ -61,7 +60,7 @@ function triggerUpdate(language) {
       .then((response) => response.json())
       .then((data) => {
         texts = data;
-        if(page == "index.php"){document.getElementById('landingBarContainer').style.display = "none";}
+        if(page == "index.php" || page == ""){document.getElementById('landingBarContainer').style.display = "none";}
         updateTexts();
       });
   } else if (language === "fr") {
@@ -69,7 +68,7 @@ function triggerUpdate(language) {
       .then((response) => response.json())
       .then((data) => {
         texts = data;
-        if(page == "index.php"){document.getElementById('landingBarContainer').style.display = "block";}
+        if(page == "index.php" || page == ""){document.getElementById('landingBarContainer').style.display = "block";}
         updateTexts();
       });
   }
