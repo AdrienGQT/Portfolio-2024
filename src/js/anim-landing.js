@@ -22,12 +22,4 @@ appearTimeline.fromTo('.anim-appear',{
     opacity:1,
     duration:0.3,
     stagger:0.2
-}).fromTo('.anim-appear-up',{
-    y:15,
-    opacity:0
-},
-{
-    y:0,
-    opacity:1,
-    duration:0.3,
 })

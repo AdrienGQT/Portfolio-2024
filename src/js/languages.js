@@ -61,6 +61,7 @@ function triggerUpdate(language) {
       .then((response) => response.json())
       .then((data) => {
         texts = data;
+        if(page == "index.php"){document.getElementById('landingBarContainer').style.display = "none";}
         updateTexts();
       });
   } else if (language === "fr") {
@@ -68,6 +69,7 @@ function triggerUpdate(language) {
       .then((response) => response.json())
       .then((data) => {
         texts = data;
+        if(page == "index.php"){document.getElementById('landingBarContainer').style.display = "block";}
         updateTexts();
       });
   }
