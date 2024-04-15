@@ -14,7 +14,7 @@
             </h2>
             <div class="main-title">
                 <div class="main-title__top">
-                    <h1 id="landingJob1" class="main-title__text anim-appear">UX/UI Designer</h1>
+                    <h1 id="landingJob1" class="main-title__text anim-appear">UI/UX Designer</h1>
                     <div id="landingBar" class="main-title__bar anim-appear"></div>
                 </div>
                 <div class="main-title__bottom">
@@ -25,13 +25,14 @@
 
                         </div>
                     </div>
-                    <h1 id="landingJob2" class="main-title__text anim-appear">& Photographer</h1>
+                    <div id="landingBarContainer" class="anim-appear main-title__bar"></div>
+                    <h1 id="landingJob2" class="main-title__text anim-appear">& Web Developer</h1>
                 </div>
             </div>
         </div>
         <div id="landingBottom" class="landing__bottom">
             <h2 id="landingPara1" class="landing__text anim-appear">UX/UI Designer in training at Gobelins Paris with a passion for crafting the best visual experiences.</h2>
-            <h2 id="landingPara2" class="landing__text anim-appear">I also channel my creativity into photography to tell compelling visual stories for my clients.</h2>
+            <h2 id="landingPara2" class="landing__text anim-appear">Because I love it when my projects come to life, I'm also learning web development, and I'm passionate about the latest web technologies.</h2>
 
         </div>
         <a class="button button--c-1 anim-appear" style="z-index: 100;"
@@ -47,7 +48,7 @@
 
 
 
-    <div id="selector-container" class="selector-container anim-appear-up">
+    <!-- <div id="selector-container" class="selector-container anim-appear-up">
         <div class="selector-container__top">
             <p id="selectorTop" class="selector-container__choose">Choose category</p>
         </div>
@@ -64,7 +65,9 @@
             </div>
             <div class="selector-container__divider"></div>
         </div>
-    </div>
+    </div> -->
+
+    <div id="selector-container" style="height:0px; width:100%"><div class="selector-container__divider" style="height:0px"></div></div>
 
     <!-- Projects -->
 

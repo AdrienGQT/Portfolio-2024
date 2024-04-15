@@ -33,15 +33,6 @@
             </p>
         </li>
 
-        <div class="article-media">
-            <div class="article-media__alt-container">
-                <p id="bea-gasquet-article-original-website">Original client website</p>
-            </div>
-            <!-- <img class="article-media__image" src="\client-data\images\pages-content\beatrice-gasquet\original-website.PNG" alt=""> -->
-            <img class="article-media__image"
-                src="\client-data\images\pages-content\beatrice-gasquet\original-website-2.PNG" alt="">
-        </div>
-
         <li class="article-section">
             <h5 class="article-section__title" id="bea-gasquet-article-brief-title">Brief</h5>
             <p class="article-section__para" id="bea-gasquet-article-brief-para">The brief for this project was to
