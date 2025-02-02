@@ -1,0 +1,25 @@
+.tags{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 25px;
+    left: 25px;
+    display: flex;
+    justify-content: flex-start;
+    gap: 10px;
+
+    &__item{
+        padding: 5px 10px;
+        background-color: #F5E3D8;
+        border-radius: 6px;
+
+        & p{
+            margin: 0;
+        }
+    }
+
+    @media screen and (max-width : $bp-phone) {
+        display: none;
+    }
+}
