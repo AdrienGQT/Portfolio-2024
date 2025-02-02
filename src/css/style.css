@@ -30,6 +30,10 @@ p {
   font-size: 1rem;
 }
 
+.psmall {
+  font-size: 1rem;
+}
+
 h1 {
   font-size: 5.6rem;
   font-weight: 700;
@@ -738,6 +742,7 @@ span {
   flex-direction: column;
   align-items: center;
   gap: 40px;
+  position: relative;
 }
 .project__overview {
   width: 100%;
@@ -791,6 +796,31 @@ span {
   background: none;
   border-radius: 15px;
   filter: drop-shadow(0 0 0.75rem rgba(0, 0, 0, 0.3));
+}
+
+.tags {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  top: 25px;
+  left: 25px;
+  display: flex;
+  justify-content: flex-start;
+  gap: 10px;
+}
+.tags__item {
+  padding: 5px 10px;
+  background-color: #F5E3D8;
+  border-radius: 6px;
+}
+.tags__item p {
+  margin: 0;
+}
+@media screen and (max-width: 970px) {
+  .tags {
+    display: none;
+  }
 }
 
 .article-title {

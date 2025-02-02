@@ -31,12 +31,13 @@
             </div>
         </div>
         <div id="landingBottom" class="landing__bottom">
-            <h2 id="landingPara1" class="landing__text anim-appear">UX/UI Designer in training at Gobelins Paris with a passion for crafting the best visual experiences.</h2>
-            <h2 id="landingPara2" class="landing__text anim-appear">Because I love it when my projects come to life, I'm also learning web development, and I'm passionate about the latest web technologies.</h2>
+            <h2 id="landingPara1" class="landing__text anim-appear">UX/UI Designer in training at Gobelins Paris with a
+                passion for crafting the best visual experiences.</h2>
+            <h2 id="landingPara2" class="landing__text anim-appear">Because I love it when my projects come to life, I'm
+                also learning web development, and I'm passionate about the latest web technologies.</h2>
 
         </div>
-        <a class="button button--c-1 anim-appear" style="z-index: 100;"
-            href="#selector-container">
+        <a class="button button--c-1 anim-appear" style="z-index: 100;" href="#selector-container">
             <div class="button__icon button__icon--arrow-down"></div>
             <p id="landingButton" class="button__text"></p>
             <div class="button__icon button__icon--arrow-down"></div>
@@ -67,7 +68,9 @@
         </div>
     </div> -->
 
-    <div id="selector-container" style="height:0px; width:100%"><div class="selector-container__divider" style="height:0px"></div></div>
+    <div id="selector-container" style="height:0px; width:100%">
+        <div class="selector-container__divider" style="height:0px"></div>
+    </div>
 
     <!-- Projects -->
 
@@ -76,6 +79,17 @@
         <li class="project project--design">
             <h3 class="project__title">WikiChallenge</h3>
             <div class="project__bottom">
+                <ul class="tags">
+                    <li class="tags__item">
+                        <p class="psmall">UI/UX Design</p>
+                    </li>
+                    <li class="tags__item">
+                        <p class="psmall">Branding</p>
+                    </li>
+                    <li class="tags__item">
+                        <p class="psmall">Illustration</p>
+                    </li>
+                </ul>
                 <a href="src/pages/design/wiki-challenge.php" aria-label="Button to WikiChallenge section">
                     <img class="project__overview" src="client-data/images/overviews/wiki-challenge.webp" alt="">
                 </a>
@@ -89,7 +103,19 @@
         <li class="project project--design">
             <h3 id="beatriceGasquetTitle" class="project__title">Beatrice Gasquet's website redesign</h3>
             <div class="project__bottom">
-                <a href="src/pages/design/beatrice-gasquet.php" aria-label="Button to Beatrice Gasquet's website section">
+                <ul class="tags">
+                    <li class="tags__item">
+                        <p class="psmall">UI/UX Design</p>
+                    </li>
+                    <li class="tags__item">
+                        <p class="psmall">Branding</p>
+                    </li>
+                    <li class="tags__item">
+                        <p class="psmall">Web development</p>
+                    </li>
+                </ul>
+                <a href="src/pages/design/beatrice-gasquet.php"
+                    aria-label="Button to Beatrice Gasquet's website section">
                     <img class="project__overview" src="client-data/images/overviews/beatrice-gasquet.webp" alt="">
                 </a>
                 <a class="button button--c-2" href="src/pages/design/beatrice-gasquet.php">
@@ -102,6 +128,14 @@
         <li class="project project--design">
             <h3 id="liftoffrocketsTitle" class="project__title">Space news Instagram thread</h3>
             <div class="project__bottom">
+                <ul class="tags">
+                    <li class="tags__item">
+                        <p class="psmall">Illustration</p>
+                    </li>
+                    <li class="tags__item">
+                        <p class="psmall">Infographic design</p>
+                    </li>
+                </ul>
                 <a href="src/pages/design/liftoffrockets.php" aria-label="Button to Liftoffrockets section">
                     <img class="project__overview" src="client-data/images/overviews/liftoffrockets.webp" alt="">
                 </a>
@@ -115,6 +149,14 @@
         <li class="project project--design">
             <h3 id="duoTitle" class="project__title">DUO - Fictional GUI</h3>
             <div class="project__bottom">
+                <ul class="tags">
+                    <li class="tags__item">
+                        <p class="psmall">UI/UX Design</p>
+                    </li>
+                    <li class="tags__item">
+                        <p class="psmall">Branding</p>
+                    </li>
+                </ul>
                 <a href="src/pages/design/duo.php" aria-label="Button to DUO section">
                     <img class="project__overview" src="client-data/images/overviews/duo.webp" alt="">
                 </a>
