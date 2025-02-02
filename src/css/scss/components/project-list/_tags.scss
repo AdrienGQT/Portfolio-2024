@@ -13,6 +13,8 @@
         padding: 5px 10px;
         background-color: #F5E3D8;
         border-radius: 6px;
+        counter-increment: none; /* Empêche ces <li> d'affecter le compteur */
+        list-style: none; /* Supprime les puces des <li> internes */
 
         & p{
             margin: 0;

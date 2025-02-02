@@ -1,6 +1,7 @@
 .project {
     width: 100%;
     list-style-position: inside;
+    counter-increment: project-counter; /* Incrémente seulement pour les projets */
 
     &__title {
         color: $c-on-primary-container;
@@ -51,7 +52,7 @@
     }
 
     &::marker {
-        content: counter(list-item) "› ";
+        content: counter(project-counter) " › "; /* Affiche seulement les numéros des projets */
         color: $c-primary-container;
         font-family: Figtree;
         font-size: 3rem;
@@ -60,31 +61,6 @@
 
         @media screen and (max-width: 970px) {
             font-size: 2rem;
-        }
-    }
-
-    &--photo {
-        display: none;
-        background: $c-glass;
-        box-shadow: $glass-shadow;
-        backdrop-filter: blur($glass-blur);
-        -webkit-backdrop-filter: blur($glass-blur);
-        border-radius: 25px;
-        border: $glass-border;
-        padding: 20px;
-        box-sizing: border-box;
-
-        &::marker {
-            color: $c-black-main;
-            mix-blend-mode: plus-lighter;
-            filter: blur(1px);
-        }
-
-        .project__overview {
-            padding: 0;
-            background: none;
-            border-radius: 15px;
-            filter: drop-shadow(0 0 0.75rem rgba(0, 0, 0, 0.3))
         }
     }
 }

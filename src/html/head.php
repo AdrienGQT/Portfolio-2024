@@ -23,7 +23,6 @@
     <meta name="MobileOptimized" content="375">
 
     <link rel="stylesheet" href="/src/css/style.css">
-    <script src="/src/js/selector.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js" defer></script>
     <?php if(basename($_SERVER['PHP_SELF'])=='index.php')echo('<script src="\src\js\anim-landing.js" defer></script>') ?>
     

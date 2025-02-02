@@ -47,27 +47,6 @@
     <div id="background"></div>
     <div id="background-loading"></div>
 
-
-
-    <!-- <div id="selector-container" class="selector-container anim-appear-up">
-        <div class="selector-container__top">
-            <p id="selectorTop" class="selector-container__choose">Choose category</p>
-        </div>
-        <div class="selector-container__bottom">
-            <div class="selector-container__divider"></div>
-            <div id="selector" class="selector">
-                <div id="selector-design" class="selector__item selector__item--on" onclick="selectorClick('design')">
-                    <p id="selectorDesign">Design</p>
-                </div>
-                <div id="selector-photography" class="selector__item selector__item--off"
-                    onclick="selectorClick('photography')">
-                    <p id="selectorPhoto">Photography</p>
-                </div>
-            </div>
-            <div class="selector-container__divider"></div>
-        </div>
-    </div> -->
-
     <div id="selector-container" style="height:0px; width:100%">
         <div class="selector-container__divider" style="height:0px"></div>
     </div>
@@ -166,25 +145,6 @@
                 </a>
             </div>
         </li>
-
-        <!-- PHOTOS -->
-
-        <h3 id="warning" class="warning">⚠️ This part of the website is under construction, some elements may not be
-            fully functional ! ⚠️</h3>
-
-        <li class="project project--photo">
-            <h3 id="casahTitle" class="project__title">Shooting CASAH events</h3>
-            <div class="project__bottom">
-                <a href="src/pages/photo/casah.php" aria-label="Button to CASAH section">
-                    <img class="project__overview" src="client-data/images/overviews/casah.webp" alt="">
-                </a>
-                <a class="button button--c-1" href="src/pages/photo/casah.php">
-                    <p class="button__text projectListButton"></p>
-                    <div class="button__icon button__icon--double-arrow"></div>
-                </a>
-            </div>
-        </li>
-    </ol>
 
 </div>
 
