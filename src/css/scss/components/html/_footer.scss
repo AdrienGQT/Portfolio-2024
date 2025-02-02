@@ -43,6 +43,10 @@
             background-image: url(/public/logo/x.svg);
         }
 
+        &--github {
+            background-image: url(/public/logo/github.svg);
+        }
+
         &:hover {
             opacity: 100%;
         }

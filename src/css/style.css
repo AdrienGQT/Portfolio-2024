@@ -907,6 +907,9 @@ span {
 .footer-list__icon--x {
   background-image: url(/public/logo/x.svg);
 }
+.footer-list__icon--github {
+  background-image: url(/public/logo/github.svg);
+}
 .footer-list__icon:hover {
   opacity: 100%;
 }

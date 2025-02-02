@@ -1,7 +1,6 @@
 const appearTimeline = gsap.timeline()
 
 const onLoad = () => {
-    console.log('Loaded')
     appearTimeline.fromTo('.anim-appear',{
         y:-15,
         opacity:0,
