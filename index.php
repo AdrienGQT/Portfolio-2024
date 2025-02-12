@@ -56,6 +56,45 @@
     <ol id="project-list" class="project-list">
 
         <li class="project project--design">
+            <h3 class="project__title">Gobelins anniversary Timeline</h3>
+            <div class="project__bottom">
+                <ul class="tags">
+                    <li class="tags__item">
+                        <p class="psmall">Web development</p>
+                    </li>
+                    <li class="tags__item">
+                        <p class="psmall">UI/UX Design</p>
+                    </li>
+                </ul>
+                <a href="src/pages/design/timeline-gobelins.php" aria-label="Button to WikiChallenge section">
+                    <img class="project__overview" src="client-data/images/overviews/gobelins-timeline.webp" alt="">
+                </a>
+                <a class="button button--c-2" href="src/pages/design/timeline-gobelins.php">
+                    <p class="button__text projectListButton"></p>
+                    <div class="button__icon button__icon--double-arrow"></div>
+                </a>
+            </div>
+        </li>
+
+        <!-- <li class="project project--design">
+            <h3 class="project__title">Gliss N Chill</h3>
+            <div class="project__bottom">
+                <ul class="tags">
+                    <li class="tags__item">
+                        <p class="psmall">Web development</p>
+                    </li>
+                </ul>
+                <a href="src/pages/design/gliss-n-chill.php" aria-label="Button to WikiChallenge section">
+                    <img class="project__overview" src="client-data/images/overviews/gliss-n-chill.webp" alt="">
+                </a>
+                <a class="button button--c-1" href="src/pages/design/gliss-n-chill.php">
+                    <p class="button__text projectListButton"></p>
+                    <div class="button__icon button__icon--double-arrow"></div>
+                </a>
+            </div>
+        </li> -->
+
+        <li class="project project--design">
             <h3 class="project__title">WikiChallenge</h3>
             <div class="project__bottom">
                 <ul class="tags">
