@@ -5,7 +5,8 @@
         <h3 class="article-title__main">Gobelins Timeline</h3>
         <p class="article-title__second">
             Gobelins Timeline is a project created for the early 2025 open days of Gobelins Paris.
-            The goal was to design an original and interactive timeline showcasing the history of the school. (This project was co-created with Ahmed Kabbej, Dounia Bahzad, Yvan Telesinski and Inès Rahli)
+            The goal was to design an original and interactive timeline showcasing the history of the school. (This
+            project was co-created with Ahmed Kabbej, Dounia Bahzad, Yvan Telesinski and Inès Rahli)
         </p>
     </div>
     <ol class="article-sections-list">
@@ -43,13 +44,13 @@
         </li>
 
         <div class="article-media">
-                <div class="article-media__alt-container">
-                    <p>Demonstration</p>
-                </div>
-                <video autoplay muted loop class="article-media__video"
-                    src="\client-data\images\pages-content\timeline-gobelins\demo.webm"
-                    alt="Video of Gobelins Timeline"></video>
+            <div class="article-media__alt-container">
+                <p>Demonstration</p>
             </div>
+            <video autoplay muted loop class="article-media__video"
+                src="\client-data\images\pages-content\timeline-gobelins\demo.webm"
+                alt="Video of Gobelins Timeline"></video>
+        </div>
 
         <li class="article-section">
             <h5 class="article-section__title">Handcrafted shapes</h5>
@@ -80,15 +81,15 @@
             <h5 class="article-section__title">Try it now</h5>
             <p class="article-section__para">
                 Our project is available online ! You can try it right now by clicking <a
-                href="https://timeline-gobelins.vercel.app/" target="_blank">here</a>
+                    href="https://timeline-gobelins.vercel.app/" target="_blank">here</a>
             </p>
         </li>
 
         <div class="bottom-buttons">
-        <a class="button button--c-2" href="/index.php">
-            <div class="button__icon button__icon--home"></div>
-            <p class="button__text">Return home</p>
-        </a>
+            <a class="button button--c-2" href="/index.php">
+                <div class="button__icon button__icon--home"></div>
+                <p class="button__text">Return home</p>
+            </a>
             <a class="button button--c-1" href="/src/pages/design/wiki-challenge.php">
                 <div class="button__icon button__icon--arrow-next"></div>
                 <p class="button__text">See next project</p>

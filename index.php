@@ -76,7 +76,7 @@
             </div>
         </li>
 
-        <!-- <li class="project project--design">
+        <li class="project project--design">
             <h3 class="project__title">Gliss N Chill</h3>
             <div class="project__bottom">
                 <ul class="tags">
@@ -92,7 +92,7 @@
                     <div class="button__icon button__icon--double-arrow"></div>
                 </a>
             </div>
-        </li> -->
+        </li>
 
         <li class="project project--design">
             <h3 class="project__title">WikiChallenge</h3>
