@@ -83,6 +83,17 @@
             </p>
         </li>
 
+        <div class="bottom-buttons">
+            <a class="button button--c-2" href="/index.php">
+                <div class="button__icon button__icon--home"></div>
+                <p class="button__text">Return home</p>
+            </a>
+            <a class="button button--c-1" href="/src/pages/design/wiki-challenge.php">
+                <div class="button__icon button__icon--arrow-next"></div>
+                <p class="button__text">See next project</p>
+            </a>
+        </div>
+
     </ol>
 </div>
 <?php include '../../html/footer.php'; ?>

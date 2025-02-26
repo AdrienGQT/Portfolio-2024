@@ -69,7 +69,7 @@
                 <a href="src/pages/design/timeline-gobelins.php" aria-label="Button to WikiChallenge section">
                     <img class="project__overview" src="client-data/images/overviews/gobelins-timeline.webp" alt="">
                 </a>
-                <a class="button button--c-2" href="src/pages/design/timeline-gobelins.php">
+                <a class="button button--c-1" href="src/pages/design/timeline-gobelins.php">
                     <p class="button__text projectListButton"></p>
                     <div class="button__icon button__icon--double-arrow"></div>
                 </a>
@@ -87,7 +87,7 @@
                 <a href="src/pages/design/gliss-n-chill.php" aria-label="Button to WikiChallenge section">
                     <img class="project__overview" src="client-data/images/overviews/gliss-n-chill.webp" alt="">
                 </a>
-                <a class="button button--c-1" href="src/pages/design/gliss-n-chill.php">
+                <a class="button button--c-2" href="src/pages/design/gliss-n-chill.php">
                     <p class="button__text projectListButton"></p>
                     <div class="button__icon button__icon--double-arrow"></div>
                 </a>

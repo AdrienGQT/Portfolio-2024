@@ -90,7 +90,7 @@
                 <div class="button__icon button__icon--home"></div>
                 <p class="button__text">Return home</p>
             </a>
-            <a class="button button--c-1" href="/src/pages/design/wiki-challenge.php">
+            <a class="button button--c-1" href="/src/pages/design/gliss-n-chill.php">
                 <div class="button__icon button__icon--arrow-next"></div>
                 <p class="button__text">See next project</p>
             </a>
