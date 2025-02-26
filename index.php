@@ -14,7 +14,9 @@
             </h2>
             <div class="main-title">
                 <div class="main-title__top">
-                    <h1 id="landingJob1" class="main-title__text anim-appear">UI/UX Designer</h1>
+                    <div class="main-title__text anim-appear">
+                        <h1 id="landingJob1" class="main-title__text-child">UI/UX Designer</h1>
+                    </div>
                     <div id="landingBar" class="main-title__bar anim-appear"></div>
                 </div>
                 <div class="main-title__bottom">
@@ -26,7 +28,9 @@
                         </div>
                     </div>
                     <div id="landingBarContainer" class="anim-appear main-title__bar"></div>
-                    <h1 id="landingJob2" class="main-title__text anim-appear">& Web Developer</h1>
+                    <div class="main-title__text anim-appear">
+                        <h1 id="landingJob2" class="main-title__text-child">& Web Developer</h1>
+                    </div>
                 </div>
             </div>
         </div>
@@ -186,5 +190,11 @@
         </li>
 
 </div>
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+<script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/SplitText.min.js"></script>
+<script src="\src\js\anim-landing.js"></script>
+<?php
+// if(basename($_SERVER['PHP_SELF'])=='index.php')echo('<script src="\src\js\anim-landing.js" defer></script>') 
+?>
 
 <?php include 'src/html/footer.php'; ?>

@@ -395,6 +395,7 @@ span {
   }
 }
 .main-title__top {
+  height: 50%;
   display: flex;
   align-items: center;
   gap: 25px;
